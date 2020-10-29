@@ -1,0 +1,2 @@
+export const TOGGLE_SHOW_TABBAR = 'TOGGLE_SHOW_TABBAR';
+export const SAVE_TOKEN = 'SAVE_TOKEN';

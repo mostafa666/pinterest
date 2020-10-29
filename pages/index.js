@@ -1,8 +1,15 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Link from 'next/link'
+import { connect } from 'react-redux'
 
-export default function Home() {
+function Home(props) {
+  console.log(props);
   return (
-    <div>sauaDf</div>
+    <>
+      <Link href="/login">ورود</Link> 
+      <Link href="/register">ثبت نام</Link> 
+    </>
   )
 }
+
+
+export default connect(state => state)(Home)
