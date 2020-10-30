@@ -54,3 +54,11 @@
       transform: translate(16px, 0);
     }
   }
+/* main page styles */
+.mainPageContainer {
+  width: 100%;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

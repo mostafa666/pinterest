@@ -16,7 +16,7 @@ function Header(props) {
             </label>
           </div>
           <div className={styles.left}>
-            <img src="./assets/pinterest.svg" width="30" />
+            <Link href="/"><img src="./assets/pinterest.svg" width="30" /></Link>
           </div>
         </div>
     </nav>

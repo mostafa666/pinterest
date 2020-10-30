@@ -1,13 +1,26 @@
 import Link from 'next/link'
 import { connect } from 'react-redux'
-import Header from '../components/Header';
+import Layout from '../components/Layout';
+import Post from '../components/Post';
+
 
 function Home(props) {
   console.log(props);
   return (
-    <>
-      <Header />
-    </>
+    <Layout>
+      <main className="mainPageContainer">
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+      </main>
+    </Layout>
   )
 }
 
