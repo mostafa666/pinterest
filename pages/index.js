@@ -1,12 +1,12 @@
 import Link from 'next/link'
 import { connect } from 'react-redux'
+import Header from '../components/Header';
 
 function Home(props) {
   console.log(props);
   return (
     <>
-      <Link href="/login">ورود</Link> 
-      <Link href="/register">ثبت نام</Link> 
+      <Header />
     </>
   )
 }
